@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+#registration {
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    width: 75vw;
+    max-width: 350vw;
+}
+
+input, select {
+    margin-bottom: 1.5rem;
+    line-height: 1.4rem;
+    font-family: "comic-sans";
+    font-size: .9rem;
+    padding-left: 5px;
+    
+}
+
+label {
+    font-family: bold;
+}
+
+#btn {
+    margin-bottom: 0;
+    background-color: chocolate;
+    
+}

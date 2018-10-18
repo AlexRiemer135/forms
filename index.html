@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Forms</title>
 </head>
 
 <body>
-    
+    <!--<form name="login-form" action="login.php" method="post" enctype="application/x-www-form-urlencoded">
+    <input type="text" name="user" id="user" value="" placeholder="Aw yeah mate" required />
+    <input type="email" name="user" id="user" value="" placeholder="user@domain.com" />
+    <input type="password" name="user" id="user" value="" autocomplete="no" />
+    <input type="number" name="num" id="num" value="1" min="1" max="99" step="1" />
+    <input type="color" name="bg" id="bg" value="#bada55" />
+    <input type="checkbox" name="alive" id="alive" value="yes" checked />
+    <input type="radio" name="flavour" id="flavour" value="vanilla" checked />
+    <input type="hidden" name="price" id="price" value="12.99" />
+    <input type="search" name="search" id="search" />
+    <input type="date" name="dt" id="dt" />
+    <input type="datetime" name="dt" id="dt" />
+    <input type="datetime-local" name="dt" id="dt" />
+    <input type="time" name="timmy" id="timmy" />
+    <input type="tel" name="phone" id="phone" />
+    <input type="file" name="resume" id="resume" />
+    </form>-->
+    <form id="registration" name="registration-form" action="register.php" method="post" enctype="application/x-www-form-urlencoded">
+
+        <label fname="name">Your First Name: </label>
+        <input type="text" id="fname" fname="name" placeholder="your first name here" required>
+        <label lname="name">Your Last Name: </label>
+        <input type="text" id="lname" lname="name" placeholder="your last name here">
+        <label name="email">Your Email: </label>
+        <input type="email" id="email" name="email" placeholder="your email here">
+        <label name="password">Your Password: </label>
+        <input type="password" id="password" name="password" placeholder="your password here">
+        <label for="age">Age range: </label>
+        <select id="age" name="age">
+            <options value="18-25">18 - 25</options>
+            <options value="26-30">26 - 30</options>
+            <options value="31-40">31 - 40</options>
+            <options value="41+">41+</options>
+        </select>
+        <input type="button" id="btn" name="btn" value="Click me now!">
+    </form>
 </body>
+
 </html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="css/main.css">
